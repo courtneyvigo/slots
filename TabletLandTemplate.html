@@ -1,0 +1,208 @@
+<!--Main Container that holds everything in an absolute position to hold everything in place in the UI-->
+<!--All html coding for your project should be done inside this "main-container"-->
+<!--Feel free to add to, delete or edit any or all of the html that is currently inside this container-->
+<!--Just be sure to keep the css that defines the styling for the "main-container"-->
+<div id="main-container">
+<!--backgroundImage: all other gameplay elements are children of this div.-->
+	<div class="container" id="game-container">
+		<div class="bg"></div>
+		
+		<div id="big-win-connections">
+			<div id="bw-1">
+				<div id="bw1-left-bar"></div>
+				<div id="bw1-center-bar"></div>
+				<div id="bw1-right-bar"></div>
+			</div>
+		
+			<div id="bw-2">
+				<div id="bw2-center-bar"></div>
+			</div>
+		</div>
+		
+		<div id="small-win-connections">
+			<div id="sw-left-bar"></div>
+			<div id="sw-left-bar2"></div>
+			<div id="sw-right-bar"></div>
+			<div id="sw-right-bar2"></div>
+		</div>
+		
+		<div class="reels">
+			<div class="reel-top" id="reel1">
+			<div id="reel1-1"></div>
+			<div id="reel1-2"></div>
+			<div id="reel1-3"></div>
+			<div id="reel1-4"></div>
+			<div id="reel1-5"></div>
+			<div id="reel1-6"></div>
+			<div id="reel1-7"></div>
+			<div id="reel1-8"></div>
+			<div id="reel1-9"></div>
+			<div id="reel1-10"></div>
+			<div id="reel1-11"></div>
+			<div id="reel1-12"></div>
+			<div id="reel1-13"></div>
+			<div id="reel1-14"></div>
+			<div id="reel1-15"></div>
+			<div id="reel1-16"></div>
+			<div id="reel1-17"></div>
+			<div id="reel1-18"></div>
+			</div>
+			<div class="reel-top" id="reel2">
+			<div id="reel2-1"></div>
+			<div id="reel2-2"></div>
+			<div id="reel2-3"></div>
+			<div id="reel2-4"></div>
+			<div id="reel2-5"></div>
+			<div id="reel2-6"></div>
+			<div id="reel2-7"></div>
+			<div id="reel2-8"></div>
+			<div id="reel2-9"></div>
+			<div id="reel2-10"></div>
+			<div id="reel2-11"></div>
+			<div id="reel2-12"></div>
+			<div id="reel2-13"></div>
+			<div id="reel2-14"></div>
+			<div id="reel2-15"></div>
+			<div id="reel2-16"></div>
+			<div id="reel2-17"></div>
+			<div id="reel2-18"></div>
+			</div>
+			<div class="reel-top" id="reel3">
+			<div id="reel3-1"></div>
+			<div id="reel3-2"></div>
+			<div id="reel3-3"></div>
+			<div id="reel3-4"></div>
+			<div id="reel3-5"></div>
+			<div id="reel3-6"></div>
+			<div id="reel3-7"></div>
+			<div id="reel3-8"></div>
+			<div id="reel3-9"></div>
+			<div id="reel3-10"></div>
+			<div id="reel3-11"></div>
+			<div id="reel3-12"></div>
+			<div id="reel3-13"></div>
+			<div id="reel3-14"></div>
+			<div id="reel3-15"></div>
+			<div id="reel3-16"></div>
+			<div id="reel3-17"></div>
+			<div id="reel3-18"></div>
+			</div>
+			<div class="reel-top" id="reel4">
+			<div id="reel4-1"></div>
+			<div id="reel4-2"></div>
+			<div id="reel4-3"></div>
+			<div id="reel4-4"></div>
+			<div id="reel4-5"></div>
+			<div id="reel4-6"></div>
+			<div id="reel4-7"></div>
+			<div id="reel4-8"></div>
+			<div id="reel4-9"></div>
+			<div id="reel4-10"></div>
+			<div id="reel4-11"></div>
+			<div id="reel4-12"></div>
+			<div id="reel4-13"></div>
+			<div id="reel4-14"></div>
+			<div id="reel4-15"></div>
+			<div id="reel4-16"></div>
+			<div id="reel4-17"></div>
+			<div id="reel4-18"></div>
+			</div>
+			<div class="reel-top" id="reel5">
+			<div id="reel5-1"></div>
+			<div id="reel5-2"></div>
+			<div id="reel5-3"></div>
+			<div id="reel5-4"></div>
+			<div id="reel5-5"></div>
+			<div id="reel5-6"></div>
+			<div id="reel5-7"></div>
+			<div id="reel5-8"></div>
+			<div id="reel5-9"></div>
+			<div id="reel5-10"></div>
+			<div id="reel5-11"></div>
+			<div id="reel5-12"></div>
+			<div id="reel5-13"></div>
+			<div id="reel5-14"></div>
+			<div id="reel5-15"></div>
+			<div id="reel5-16"></div>
+			<div id="reel5-17"></div>
+			<div id="reel5-18"></div>
+			</div>
+		</div>
+		
+		<div class="b-hud">
+			<div id="stop"></div>
+			<div class="lines-playing">30</div>
+			<div class="win-txt" id="winning-text"></div>
+			<div id="spin-prompt">spin for your chance to win big!</div>
+			<div class="bet-txt" id="current-bet">5</div>
+			<div id="current-credits">2165</div>
+			
+			<div id="bet-changers">
+				<div id="max-bet" onclick="maxBet();"></div>
+				<div class="increase-bet" id="increase-bet" onclick="increaseBet();"></div>
+				<div class="decrease-bet" id="decrease-bet" onclick="decreaseBet();"></div>
+			</div>
+			
+			<div class="spin-click" onclick="spinClick();"></div>
+		</div>
+		
+		<div id="effects">
+			<div id="cherry-anim">
+				<div id="cherry1"></div>
+				<div id="cherry2"></div>
+				<div id="cherry3"></div>
+				<div id="cherry4"></div>
+				<div id="cherry5"></div>
+			</div>
+			<div id="wild-anim">
+				<div id="wild1"></div>
+				<div id="wild2"></div>
+				<div id="wild3"></div>
+				<div id="wild4"></div>
+				<div id="wild5"></div>
+			</div>
+			<div id="seven-anim">
+				<div id="seven1"></div>
+				<div id="seven2"></div>
+				<div id="seven3"></div>
+				<div id="seven4"></div>
+				<div id="seven5"></div>
+			</div>
+			<!-- <div id="exploding-coins">
+				<div id="exploding-coins-anim1"></div>
+			</div> -->
+		</div>
+	</div>
+	<!-- OUTRO SPECIFIC HTML -->
+	<!--backgroundImage: all other outro elements are children of this div.-->
+	<div class="container" id="outro-container">
+		<!--Put all background animation (all animation that exists behind the buttons but in front of the background... ex: snow, rain, or 	bubbles) 	inside this empty div-->
+		<div id="animation-container">
+		<!-- uncomment the following code for midcore:
+						<div id="end-scenario"></div> -->
+		</div>
+		<!--ThanksForPlaying: we will assign a class and Id to be able to change it between screens-->
+		<div id="bottom-button">
+		</div>
+		<!--DLbutton: margin: auto; allows the button to be centered automatically!-->
+		<div id="top-button">
+		</div>
+		<!--Logo: this is an empty div. Just add a background-image:url('');-->
+		<div id="logo">
+		</div>
+		<!--AppIcon-->
+		<div id="appicon">
+		</div>
+		<!--mNectar Branding-->
+		<div id="mnectarbranding">
+		</div>
+		<!--ClickURL that sends the user to the landing page-->
+		<div id="dl-div" onclick="clickDownload();">
+		</div>
+	</div>
+</div>
+<!--Feel free to add to, delete or edit these script and link tags-->
+<link rel="stylesheet" href="assets/OutroCSS.css">
+<link rel="stylesheet" href="assets/GameCSS.css">
+<script src="assets/OutroJS.js"></script>
+<script src="assets/GameJS.js"></script>

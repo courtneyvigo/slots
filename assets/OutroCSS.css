@@ -1,0 +1,104 @@
+/********** OUTRO SPECIFIC CSS **********/
+#main-container {
+	width: 1024px;
+	height: 768px;
+	position: absolute;
+}
+.container {
+	width: 1024px;
+	height: 768px;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+}
+#outro-container {
+	background-image: url('backgroundOutro_ipad.jpg');
+	background-size: 1024px 768px;
+	display: none;
+}
+#animation-container{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+#mnectarbranding {
+	background-image: url('mNectarBrand_1024x52.png');
+	width: 1024px;
+	height: 52px;
+	top: 708px;
+	position: absolute;
+}
+/*function that defines the animation to be called later. It also defines the parameters and animation deforms. 
+http://www.w3schools.com/css/css3_animations.asp*/
+@-webkit-keyframes pulse {
+	from {-webkit-transform: scale(.8);}
+	to {-webkit-transform: scale(1);}
+}
+#bottom-button {
+	position: absolute;
+}
+#top-button {
+	width: 454px;
+	height: 167px;
+	position: absolute;
+	left: 282px;
+	/*animation is called. This is in a very specific order. 1. animation name 2. duration 3. animation easing 4. delay 5. pattern*/
+	animation: pulse 1.5s ease-in-out infinite alternate;
+}
+.install-click-url {
+	position: absolute;
+	width: 1004px;
+	height: 658px;
+	top: 100px;
+	left: 10px;
+}
+.idle-click-url {
+	position: absolute;
+	width: 440px;
+	height: 146px;
+	left: 292px;
+	top: 346px;
+}
+.error-click-url {
+	position: absolute;
+	width: 330px;
+	height: 126px;
+	top: 524px;
+    left: 344px;
+}
+.install-idle {
+	background-image: url('CTAoutro_ipad.png');
+	top: 346px;
+}
+.install-dl {
+	background-image: url('CTAoutro_ipad.png');
+	top: 343px;
+}
+/*The thanks will be removed for a midcore game:*/
+.install-thanks {
+	width: 271px;
+	height: 90px;
+	background-image: url('thanksoutro_ipad.png');
+	left: 377px;
+    top: 215px;
+}
+.idle-retry {
+	width: 340px;
+	height: 185px;
+	background-image: url('IdleRetry_ipad.png');
+ 	left: 340px;
+    top: 525px;
+
+}
+.error-dl {
+	width: 340px;
+	height: 140px;
+	background-image: url('ErrorDL_ipad.png');
+ 	left: 340px;
+    top: 525px;
+}
+.error-retry {
+	background-image: url('ErrorRetry_ipad.png');
+	top: 343px;
+}
+/********** OUTRO SPECIFIC CSS **********/

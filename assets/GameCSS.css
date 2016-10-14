@@ -1,0 +1,563 @@
+.container {
+	overflow: hidden;
+}
+.bg {
+	background-image: url('bg_assetcreationtablet.jpg');
+	width: 1024px;
+	height: 768px;
+}
+#cherry-anim {
+	visibility: hidden;
+}
+#cherry1{
+	position: absolute;
+    -webkit-animation: cherries-anim .5s steps(21) infinite;
+	width: 130px;
+	height: 130px;
+	background: url("cherriesAnim.png");
+    top: 162px;
+    left: 105px;
+}
+#cherry2{
+	position: absolute;
+    -webkit-animation: cherries-anim .5s steps(21) infinite;
+	width: 130px;
+	height: 130px;
+	background: url("cherriesAnim.png");
+    top: 422px;
+    left: 278px;
+}
+#cherry3{
+	position: absolute;
+    -webkit-animation: cherries-anim .5s steps(21) infinite;
+	width: 130px;
+	height: 130px;
+	background: url("cherriesAnim.png");
+    top: 162px;
+    left: 449px;
+}
+#cherry4{
+	position: absolute;
+    -webkit-animation: cherries-anim .5s steps(21) infinite;
+	width: 130px;
+	height: 130px;
+	background: url("cherriesAnim.png");
+    top: 422px;
+    left: 618px;
+}
+#cherry5{
+	position: absolute;
+    -webkit-animation: cherries-anim .5s steps(21) infinite;
+	width: 130px;
+	height: 130px;
+	background: url("cherriesAnim.png");
+    top: 162px;
+    left: 788px;
+}
+#wild-anim{
+	visibility: hidden;
+}
+#wild1{
+	position: absolute;
+    -webkit-animation: symbol-anim .5s infinite alternate, wintextGlow1 5s infinite;
+	width: 130px;
+	height: 130px;
+	background: url("wild.png");
+    top: 292px;
+    left: 88px;
+}
+#wild2{
+	position: absolute;
+    -webkit-animation: symbol-anim .5s infinite alternate, wintextGlow1 5s infinite;
+	width: 130px;
+	height: 130px;
+	background: url("wild.png");
+    top: 292px;
+    left: 278px;
+}
+#wild3{
+	position: absolute;
+    -webkit-animation: symbol-anim .5s infinite alternate, wintextGlow1 5s infinite;
+	width: 130px;
+	height: 130px;
+	background: url("wild.png");
+    top: 292px;
+    left: 449px;
+}
+#wild4{
+	position: absolute;
+    -webkit-animation: symbol-anim .5s infinite alternate, wintextGlow1 5s infinite;
+	width: 130px;
+	height: 130px;
+	background: url("wild.png");
+	top: 292px;
+    left: 618px;
+}
+#wild5{
+	position: absolute;
+    -webkit-animation: symbol-anim .5s infinite alternate, wintextGlow1 5s infinite;
+	width: 130px;
+	height: 130px;
+	background: url("wild.png");
+    top: 292px;
+    left: 788px;
+}
+#seven-anim{
+	visibility: hidden;
+}
+#seven1{
+	position: absolute;
+    -webkit-animation: seven-anim 4s steps(22) infinite;
+    width: 130px;
+    height: 130px;
+    background: url("7Anim.png");
+    top: 422px;
+    left: 105px;
+}
+#seven2{
+	position: absolute;
+    -webkit-animation: seven-anim 4s steps(22) infinite;
+	width: 130px;
+	height: 130px;
+	background: url("7Anim.png");
+    top: 162px;
+    left: 278px;
+}
+#seven3{
+	position: absolute;
+    -webkit-animation: seven-anim 4s steps(22) infinite;
+	width: 130px;
+	height: 130px;
+	background: url("7Anim.png");
+    top: 162px;
+    left: 449px;
+}
+#seven4{
+	position: absolute;
+    -webkit-animation: seven-anim 4s steps(22) infinite;
+	width: 130px;
+	height: 130px;
+	background: url("7Anim.png");
+    top: 162px;
+    left: 618px;
+}
+#seven5{
+	position: absolute;
+    -webkit-animation: seven-anim 4s steps(22) infinite;
+	width: 130px;
+	height: 130px;
+	background: url("7Anim.png");
+    top: 422px;
+    left: 788px;
+}
+#exploding-coins{
+	visibility: hidden;
+}
+/*#exploding-coins-anim1{
+	position: absolute;
+	width: 614px;
+	height: 614px;
+	background: url("coinsprite.png");
+    -webkit-animation: sprite-anim 1s steps(11) infinite reverse;
+    top: 66px;
+    left: 201px;
+}*/
+.reels {
+	overflow: hidden;
+	position: absolute;
+    top: 162px;
+    left: 86px;
+    width: 850px;
+    height: 395px;
+	-webkit-mask: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 1%,rgba(0,0,0,1) 5%,rgba(0,0,0,1) 95%,rgba(0,0,0,0) 100%);
+}
+/*The reel images go here.*/
+.image1 {
+	background-image: url('Bonus.png');
+	position: relative;
+	width: 130px;
+	height: 130px;
+}
+.image2 {
+	background-image: url('5bar.png');
+	position: relative;
+	width: 130px;
+	height: 130px;
+}
+.image3 {
+	background-image: url('7Anim.png');
+    background-position: 0px;
+	position: relative;
+	width: 130px;
+	height: 130px;
+}
+.image4 {
+	background-image: url('27s.png');
+	position: relative;
+	width: 130px;
+	height: 130px;
+}
+.image5 {
+	background-image: url('37s.png');
+	position: relative;
+	width: 130px;
+	height: 130px;
+	background-repeat: no-repeat;
+}
+.image6 {
+	background-image: url('bar.png');
+	position: relative;
+	width: 130px;
+	height: 130px;
+}
+.image7 {
+	background-image: url('bells.png');
+	position: relative;
+	width: 130px;
+	height: 130px;
+}
+.image8 {
+	background-image: url('cherriesAnim.png');
+    background-position: 0px;
+	position: relative;
+	width: 130px;
+	height: 130px;
+}
+.image9 {
+	background-image: url('QuickHit.png');
+	position: relative;
+	width: 130px;
+	height: 130px;
+}
+.image10 {
+	background-image: url('wild.png');
+	position: relative;
+	width: 130px;
+	height: 130px;
+}
+.reel-top {
+	top: -1950px; /*the full about of all 18 images minus 3. They are snapping to the bottom of the reel. so -*/
+}
+
+.reel-spin {
+	top: -1950px;
+	-webkit-animation: reel-spin 1.5s cubic-bezier(0.46, 0.1, 0.63, 1.35); /*To avoid the snap back issue,match the timing accordingly*/
+	-webkit-animation-fill-mode: forwards;
+}
+#reel1 {
+	position: absolute;
+	left: 19px;
+	width: 130px;
+	height: 2340px;
+}
+#reel2 {
+	position: absolute;
+	left: 192px;
+	width: 130px;
+	height: 2340px;
+}
+#reel3 {
+	position: absolute;
+	left: 363px;
+	width: 130px;
+	height: 2340px;
+}
+#reel4 {
+	position: absolute;
+	left: 532px;
+	width: 130px;
+	height: 2340px;
+}
+#reel5 {
+	position: absolute;
+    left: 702px;
+    width: 130px;
+	height: 2340px;
+}
+/*edit these so that the correct png's show up and hide*/
+.hidden-connections {
+    width: 412px;
+    height: 245px;
+    left: 78px;
+    top: 8px;
+	position: absolute;
+	overflow: hidden;
+}
+
+/*place big win animation here*/
+#big-win-connections {
+	position: absolute;
+	left: 86px;
+	top: 164px;
+	width: 852px;
+	height: 392px;
+	visibility: hidden;
+}
+#bw-1{
+	-webkit-animation: wintextGlow2 5s infinite;
+}
+#bw-2{
+	-webkit-animation: wintextGlow1 5s infinite;
+}
+
+#bw1-left-bar{
+    width: 311px;
+    height: 3px;
+    position: absolute;
+    background: -webkit-linear-gradient(top, rgba(248,80,50,1) 0%, rgba(231,56,39,1) 86%, rgba(0,0,0,1) 97%, rgba(0,0,0,1) 100%);
+    top: 188px;
+    left: 25px;
+	-webkit-transform: rotate(-56deg);
+}
+#bw1-center-bar{
+    width: 348px;
+    height: 3px;
+    position: absolute;
+    background: -webkit-linear-gradient(top, rgba(248,80,50,1) 0%, rgba(231,56,39,1) 86%, rgba(0,0,0,1) 97%, rgba(0,0,0,1) 100%);
+    top: 65px;
+    left: 256px;
+}
+#bw1-right-bar{
+    width: 311px;
+    height: 3px;
+    position: absolute;
+    background: -webkit-linear-gradient(top, rgba(248,80,50,1) 0%, rgba(231,56,39,1) 86%, rgba(0,0,0,1) 97%, rgba(0,0,0,1) 100%);
+    top: 193px;
+    left: 534px;
+	-webkit-transform: rotate(56deg);
+}
+#bw2-center-bar {
+    width: 696px;
+    height: 3px;
+    position: absolute;
+    background: -webkit-linear-gradient(top, rgba(248,80,50,1) 0%, rgba(231,56,39,1) 86%, rgba(0,0,0,1) 97%, rgba(0,0,0,1) 100%);
+    top: 190px;
+    left: -38px;
+}
+/*small win lines go here*/
+#small-win-connections {
+	position: absolute;
+	left: 86px;
+	top: 164px;
+	width: 852px;
+	height: 392px;
+	visibility: hidden;
+}
+#sw-left-bar {
+    width: 318px;
+    height: 3px;
+    position: absolute;
+    background: -webkit-linear-gradient(top, rgba(248,80,50,1) 0%, rgba(231,56,39,1) 86%, rgba(0,0,0,1) 97%, rgba(0,0,0,1) 100%);
+    top: 195px;
+    left: 198px;
+    -webkit-transform: rotate(-56deg);
+}
+#sw-left-bar2 {
+	width: 318px;
+    height: 3px;
+    position: absolute;
+    background: -webkit-linear-gradient(top, rgba(248,80,50,1) 0%, rgba(231,56,39,1) 86%, rgba(0,0,0,1) 97%, rgba(0,0,0,1) 100%);
+	top: 195px;
+    left: 15px;
+	-webkit-transform: rotate(56deg);
+}
+#sw-right-bar {
+	width: 318px;
+    height: 3px;
+    position: absolute;
+    background: -webkit-linear-gradient(top, rgba(248,80,50,1) 0%, rgba(231,56,39,1) 86%, rgba(0,0,0,1) 97%, rgba(0,0,0,1) 100%);
+    top: 195px;
+    left: 353px;
+	-webkit-transform: rotate(56deg);
+}
+#sw-right-bar2 {
+    width: 318px;
+    height: 3px;
+    position: absolute;
+    background: -webkit-linear-gradient(top, rgba(248,80,50,1) 0%, rgba(231,56,39,1) 86%, rgba(0,0,0,1) 97%, rgba(0,0,0,1) 100%);
+    top: 195px;
+    left: 533px;
+    -webkit-transform: rotate(-56deg);
+}
+#bet-changers {
+    width: 782px;
+    height: 103px;
+}
+#max-bet {
+	position: absolute;
+    width: 62px;
+    height: 63px;
+    top: 36px;
+    left: 714px;
+}
+.lines-playing {
+    position: absolute;
+    text-align: center;
+    font-family: "Volkswagen-Serial-Bold";
+    line-height: 44px;
+    color: #ffffff;
+    font-size: 30px;
+    top: 38px;
+    left: 103px;
+    width: 62px;
+    height: 40px;
+}
+.b-hud {
+	position: absolute;
+    bottom:0;
+    left: 50px;
+    width: 961px;
+    height: 103px;
+	background-image: url('bottomuispinGLOW_assetcreationtablet.png');
+}
+#current-credits{
+	position: absolute;
+    text-align: center;
+	font-family: "Volkswagen-Serial-Bold";
+	letter-spacing: 2px;
+    line-height: 35px;
+    color: #ffffff;
+    font-size: 26px;
+    top: -658px;
+    left: 174px;
+    width: 218px;
+    height: 36px;
+}
+#spin-prompt{
+    position: absolute;
+    text-align: center;
+    font-family: "Volkswagen-Serial-Bold";
+    letter-spacing: 2px;
+    color: #ffffff;
+	font-size: 15px;
+    top: 7px;
+    left: 304px;
+    width: 355px;
+    height: 21px;
+}
+.win-txt {
+	position: absolute;
+    text-align: center;
+	font-family: "Volkswagen-Serial-Bold";
+	letter-spacing: 2px;
+	line-height: 44px;
+    color: #ffffff;
+    font-size: 30px;
+    left: 450px;
+    width: 254px;
+    top: 38px;
+    height: 40px;
+}
+.bet-txt {
+    position: absolute;
+    text-align: center;
+    font-family: "Volkswagen-Serial-Bold";
+    line-height: 44px;
+    color: #ffffff;
+    font-size: 30px;
+    top: 38px;
+    left: 238px;
+    width: 140px;
+    height: 40px;
+}
+.stop-btn {
+	position: absolute;
+	right: 0;
+    bottom: 0;
+    width: 961px;
+    height: 103px;
+	background-image: url('bottomui_assetcreationtablet.png');
+}
+.stop-btn-anim {
+	position: absolute;
+    width: 961px;
+    height: 103px;
+	background-image: url('bottomuispin_assetcreationtablet.png');
+	-webkit-animation: BetGlow 1s ease-out infinite;
+}
+/*This is an empty div where the user can tap to spin*/
+.spin-click {
+	position: absolute;
+    right: 30px;
+    bottom: 0px;
+    width: 147px;
+    height: 95px;
+}
+
+#increase-bet {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    top: 38px;
+    left: 378px;
+}
+#decrease-bet {
+	position: absolute;
+  	width: 64px;
+    height: 64px;
+    top: 38px;
+    left: 173px;
+}
+/*fonts*/
+@font-face {
+	font-family: "Volkswagen-Serial-Bold";
+	src: url(Volkswagen-Serial-Bold.ttf);
+}
+/*animations*/
+@-webkit-keyframes sprite-anim {
+    100% {background-position: 6758px;} 
+}
+@-webkit-keyframes symbol-anim {
+    from {-webkit-transform: scale(1);}
+    to {-webkit-transform: scale(1.1);} 
+}
+@-webkit-keyframes cherries-anim {
+    from {background-position: 0px;}
+    to {background-position: 2730px;} 
+}
+@-webkit-keyframes seven-anim {
+    0% {background-position: 0px;}
+    50% {background-position: 2860px}
+    100% {background-position: 2860px;} 
+}
+@-webkit-keyframes wild-anim {
+    0% {background-position: 0px;}
+    50% {background-position: 0px;}
+    100% {background-position: 2860px;} 
+}
+/*Where your spin animation is*/
+@-webkit-keyframes reel-spin {
+	0% {-webkit-transform: translate(0,0);}
+	100% {-webkit-transform: translate(0,1820px);} /*subtracting 1 image from the "reel-top" value. because of the recoil.*/ 
+}
+@-webkit-keyframes backgroundfadein {
+    from {opacity: 0;}
+    to {opacity: .69;}
+}
+@-webkit-keyframes WinGrow {
+    from {-webkit-transform: scale(0);}
+    to {-webkit-transform: scale(1);}
+}
+@-webkit-keyframes wintextGlow1 {
+    0% {opacity: 1;}
+    16% {opacity: 1;}
+    32% {opacity: 0;}
+    48% {opacity: 0;}
+    64% {opacity: 0;}
+    100% {opacity: 1;}
+}
+@-webkit-keyframes wintextGlow2 {
+    0% {opacity: 0;}
+    16% {opacity: 0;}
+    32% {opacity: 1;}
+    48% {opacity: 1;}
+    64% {opacity: 1;}
+    100% {opacity: 0;}
+}
+@-webkit-keyframes fw-anim {
+    100% {background-position: 4032px;} 
+}
+@-webkit-keyframes BetGlow {
+    0%, 100% {opacity: 0;}
+    50% {opacity: 1;}
+}
